@@ -30,4 +30,142 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+
+  number:
+    currency:
+      format:
+        unit:      "$"
+        precision: 2
+        separator: "."
+        delimiter: ","
+        format:    "%u%n"
+
+  errors:
+    template:
+      body:        "There were problems with the following fields:"
+      header:       
+        one:       "1 error prohibited this %{model} from being saved"
+        other:     "%{count} errors prohibited this %{model} from being saved"
+
+  layouts:
+    application:
+      title:       "The Pragmatic Bookshelf"
+      home:        "Home"
+      questions:   "Questions"
+      news:        "News"
+      contact:     "Contact"
+
+  carts:
+    cart:
+      title:       "Your Cart"
+      empty:       "Empty cart"
+      checkout:    "Checkout"
+
+  store:
+    index:
+      title_html:  "Your Pragmatic Catalog"
+      add_html:    "Add to Cart"
+
+  orders:
+    new:
+      legend:       "Please Enter Your Details"
+    form:
+      name:         "Name"
+      address_html: "Address"
+      email:        "E-mail"
+      pay_type:     "Pay with"
+      pay_prompt_html: "Select a payment method"
+      submit:       "Place Order"
+      pay_types:
+        check:           "Check"
+        credit_card:     "Credit Card"
+        purchase_order:  "Purchase Order"
+      check_pay_type:
+        routing_number: "Routing #"
+        account_number: "Account #"
+      credit_card_pay_type:
+        cc_number: "CC #"
+        expiration_date: "Expiry"
+      purchase_order_pay_type:
+        po_number: "PO #"
+
+
+  thanks:          "Thank you for your order"
+
+
+
+id:
+
+  number:
+    currency:
+      format:
+        unit:      "Rp"
+        precision: 2
+        separator: "."
+        delimiter: ","
+        format:    "%u%n"
+
+  activerecord:
+    models:
+      order:       "Order"
+    attributes:
+      order:
+        address:   "Alamat"
+        name:      "Nama"
+        email:     "E-mail"
+        pay_type:  "Metode Pembayaran"
+    errors:
+      messages:
+        inclusion: "Belum di Pilih"
+        blank:     "Tidak Boleh Kosong"
+  errors:
+    template:
+      body:        "Ada masalah dengan field berikut:"
+      header:       
+        one:       "1 Error melarang %{model} untuk dapat disimpan"
+        other:     "%{count} error melarang %{model} untuk dapat disimpan"
+
+  layouts:
+    application:
+      title:       "Toko Buku 41 studio"
+      home:        "Home"
+      questions:   "Pertanyaan"
+      news:        "Berita"
+      contact:     "Kontak"
+
+  carts:
+    cart:
+      title:       "Keranjang"
+      empty:       "Keranjang Kosong"
+      checkout:    "Checkout"
+
+  store:
+    index:
+      title_html:  "Katalog 41Studio"
+      add_html:    "Tambah Ke keranjang"
+
+  orders:
+    new:
+      legend:   "Detail Pengiriman"
+    form:
+      name:  "Nama"
+      address_html:  "Alamat"
+      email:  "E-mail"
+      pay_type:  "Bayar dengan"
+      pay_prompt_html:  "Metode Pembayaran"
+      submit:  "Tempat Pengiriman"
+      pay_types: 
+        check:  "Cek"
+        credit_card:  "Credit Card"
+        purchase_order:  "Purchase Order"
+      check_pay_type:
+        routing_number:  "Routing #"
+        account_number:  "Account #"
+      credit_card_pay_type:
+        cc_number:  "CC #"
+        expiration_date:  "daluarsa"
+      purchase_order_pay_type:
+        po_number:  "PO #"
+
+
+  thanks:          "Terimakasih Sudah melakuan Pembelian di website kami"

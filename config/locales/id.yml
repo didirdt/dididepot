@@ -1,0 +1,64 @@
+
+
+id:
+
+  number:
+    currency:
+      format:
+        unit:      "Rp"
+        precision: 2
+        separator: "."
+        delimiter: ","
+        format:    "%u%n"
+
+  errors:
+    template:
+      body:        "Ada masalah dengan field berikut:"
+      header:       
+        one:       "1 Error melarang %{model} untuk dapat disimpan"
+        other:     "%{count} error melarang %{model} untuk dapat disimpan"
+
+  layouts:
+    application:
+      title:       "Toko Buku 41 studio"
+      home:        "Home"
+      questions:   "Pertanyaan"
+      news:        "Berita"
+      contact:     "Kontak"
+
+  carts:
+    cart:
+      title:       "Keranjang"
+      empty:       "Keranjang Kosong"
+      checkout:    "Checkout"
+
+  store:
+    index:
+      title_html:  "Katalog 41Studio"
+      add_html:    "Tambah Ke keranjang"
+
+  orders:
+    new:
+      legend:   "Detail Pengiriman"
+    form:
+      name:  "Nama"
+      address_html:  "Alamat"
+      email:  "E-mail"
+      pay_type:  "Bayar dengan"
+      pay_prompt_html:  "Metode Pembayaran"
+      submit:  "Tempat Pengiriman"
+      pay_types: 
+        check:  "Cek"
+        credit_card:  "Credit Card"
+        purchase_order:  "Purchase Order"
+      check_pay_type:
+        routing_number:  "Routing #"
+        account_number:  "Account #"
+      credit_card_pay_type:
+        cc_number:  "CC #"
+        expiration_date:  "daluarsa"
+      purchase_order_pay_type:
+        po_number:  "PO #"
+
+
+  thanks:          "Terimakasih Sudah melakuan Pembelian di website kami"
